@@ -10,8 +10,7 @@
 #import <AFNetworking.h>
 
 @interface ViewController ()
-- (IBAction)fourSquareButton:(id)sender;
-- (IBAction)congressButton:(id)sender;
+
 
 @end
 
@@ -61,10 +60,5 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)fourSquareButton:(id)sender {
-    
-}
 
-- (IBAction)congressButton:(id)sender {
-}
 @end

@@ -1,5 +1,5 @@
 //
-//  FourSquareViewController.h
+//  FourSquareResultsTableViewController.h
 //  ApiFun
 //
 //  Created by Levan Toturgul on 3/18/15.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FourSquareViewController : UIViewController
+@interface FourSquareResultsTableViewController : UITableViewController
 @property (weak, nonatomic) NSArray *resultsArray;
+
+
 @end

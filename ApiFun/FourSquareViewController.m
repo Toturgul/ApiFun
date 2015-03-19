@@ -9,6 +9,10 @@
 #import "FourSquareViewController.h"
 #import <AFNetworking.h>
 @interface FourSquareViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *cityTextfield;
+@property (weak, nonatomic) IBOutlet UITextField *stateTextfield;
+@property (weak, nonatomic) IBOutlet UITextField *queryTextfield;
+
 
 @end
 
@@ -54,14 +58,17 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
+
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
+    
+    
+}
+
+
+- (IBAction)foursquareButton:(id)sender {
+}
 @end
