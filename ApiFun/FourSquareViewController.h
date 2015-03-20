@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface FourSquareViewController : UIViewController
-@property (weak, nonatomic) NSArray *resultsArray;
+@property (strong, nonatomic) NSArray *paramArray;
 @end

@@ -9,7 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface FourSquareResultsTableViewController : UITableViewController
-@property (weak, nonatomic) NSArray *resultsArray;
+@property (strong, nonatomic) NSMutableArray *resultsArray;
+@property (strong, nonatomic) NSArray *paramArray;
 
 
 @end
